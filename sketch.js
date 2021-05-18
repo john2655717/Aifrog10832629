@@ -18,7 +18,6 @@ let label = "listening";
 // Teachable Machine model URL:
 let soundModelURL = 'https://john2655717.github.io/Aifrog10832629/';
 
-
 function preload() {
   // Load the model
   classifier = ml5.soundClassifier(soundModelURL);
